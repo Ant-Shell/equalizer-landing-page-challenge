@@ -1,0 +1,9 @@
+@use '../../styles/typography' as *;
+
+.intro-text {
+  font-family: "IBM Plex Sans";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+}
