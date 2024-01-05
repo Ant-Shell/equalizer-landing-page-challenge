@@ -1,11 +1,13 @@
-import './App.css'
+import Header from './components/Header/Header'
+import './styles/_global.scss'
+import './App.scss'
 
 function App() {
   
 
   return (
     <>
-    <h1>Hello!</h1>
+      <Header/>
     </>
   )
 }

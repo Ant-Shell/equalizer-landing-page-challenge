@@ -1,0 +1,32 @@
+@use '../../styles/typography' as *;
+
+.header {
+  background-image: url(../../assets/bg-main-mobile.png);
+  background-size: auto;
+  background-position: top -9rem right -12rem;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 20px 20px 20px;
+  .header-logo {
+    width: 146.09px;
+    height: 32px;
+    top: 39.99px;
+    left: 24.15px;
+  }
+  .header-intro-text {
+    font-family: "IBM Plex Sans";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+  }
+  .header-paragraph {
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+}
