@@ -10,8 +10,10 @@ const Footer = () => {
     <footer className='footer'>
       <img className='footer-logo' src={logo} alt='Logo'/>
       <p className='footer-message'>
-        All rights reserved © Equalizer 2021
-        Have any problems? Contact us via social media or email us at equalizer@example.com
+        All rights reserved © Equalizer 2021<br/>
+        Have any problems? Contact us via social media or<br/>
+        email us at<br/>
+        <b>equalizer@example.com</b>
       </p>
       <div className='footer-logo-container'>
         <img className='footer-facebook-logo' src={facebookLogo} alt='Facebook logo'/>
