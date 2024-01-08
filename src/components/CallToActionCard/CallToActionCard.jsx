@@ -1,3 +1,5 @@
+import androidIcon from '../../assets/icon-android.svg'
+import appleIcon from '../../assets/icon-apple.svg'
 import './CallToActionCard.scss'
 
 const CallToActionCard = () => {
@@ -16,8 +18,14 @@ const CallToActionCard = () => {
           <span className='cta-pricing-bold'>$4</span>
           <span className='cta-per-month'> / month</span>
         </p>
-        <button className='cta-ios-button'>iOS Download</button>
-        <button className='cta-android-button'>Android Download</button>
+        <button className='cta-ios-button'>
+          <img className='cta-apple-icon' src={appleIcon} alt='Apple icon'/>
+          <span>iOS Download</span>
+        </button>
+        <button className='cta-android-button'>
+          <img className='cta-android-icon' src={androidIcon} alt='Android icon'/>
+          <span>Android Download</span>
+        </button>
       </div>
     </section>
   )

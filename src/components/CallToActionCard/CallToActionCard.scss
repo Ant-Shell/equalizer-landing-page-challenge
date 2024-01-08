@@ -40,10 +40,10 @@
       align-self: start;
       margin-left: 20px;
       display: flex;
-        .cta-pricing-bold {
-          font-size: 65px;
-          font-weight: 700;
-          line-height: 52px;
+      .cta-pricing-bold {
+        font-size: 65px;
+        font-weight: 700;
+        line-height: 52px;
        }
        .cta-per-month {
         margin-left: 15px;
@@ -59,6 +59,13 @@
       border-radius: 10px;
       font-size: 16px;
       font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .cta-apple-icon {
+        margin-right: 5px;
+        margin-bottom: 5px;
+      }
     }
     .cta-android-button {
       background-color: $white;
@@ -70,6 +77,23 @@
       border-radius: 10px;
       font-size: 16px;
       font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .cta-android-icon {
+        margin-right: 5px;
+        margin-bottom: 5px;
+      }
+    }
+    .cta-ios-button:hover {
+      cursor: pointer;
+      background-color: $cyan;
+    }
+    .cta-android-button:hover {
+      cursor: pointer;
+      background-color: $orange;
     }
   }
 }
+
+
