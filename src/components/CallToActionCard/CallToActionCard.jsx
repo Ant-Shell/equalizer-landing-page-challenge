@@ -13,7 +13,8 @@ const CallToActionCard = () => {
           your listening experience to a whole new level and access all our incredible features!
         </p>
         <p className='cta-pricing-text'>
-          <span className='cta-pricing-bold'>$4</span><span>/ month</span>
+          <span className='cta-pricing-bold'>$4</span>
+          <span className='cta-per-month'> / month</span>
         </p>
         <button className='cta-ios-button'>iOS Download</button>
         <button className='cta-android-button'>Android Download</button>
