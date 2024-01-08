@@ -39,10 +39,14 @@
       line-height: 32px;
       align-self: start;
       margin-left: 20px;
+      display: flex;
         .cta-pricing-bold {
           font-size: 65px;
           font-weight: 700;
           line-height: 52px;
+       }
+       .cta-per-month { // <-- here
+        line-height: 10px;
        }
     }
     .cta-ios-button {
