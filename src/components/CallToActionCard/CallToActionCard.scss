@@ -85,5 +85,15 @@
         margin-bottom: 5px;
       }
     }
+    .cta-ios-button:hover {
+      cursor: pointer;
+      background-color: $cyan;
+    }
+    .cta-android-button:hover {
+      cursor: pointer;
+      background-color: $orange;
+    }
   }
 }
+
+
