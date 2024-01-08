@@ -1,6 +1,6 @@
-import './CallToActionCard.scss'
 import androidIcon from '../../assets/icon-android.svg'
 import appleIcon from '../../assets/icon-apple.svg'
+import './CallToActionCard.scss'
 
 const CallToActionCard = () => {
 
