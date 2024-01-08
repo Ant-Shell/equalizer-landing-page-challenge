@@ -45,8 +45,9 @@
           font-weight: 700;
           line-height: 52px;
        }
-       .cta-per-month { // <-- here
-        line-height: 10px;
+       .cta-per-month {
+        margin-left: 15px;
+        align-self: center;
        }
     }
     .cta-ios-button {
