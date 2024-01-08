@@ -1,3 +1,4 @@
+import CallToActionCard from '../CallToActionCard/CallToActionCard'
 import phoneImage from '../../assets/illustration-app.png'
 import coolImage from '../../assets/bg-pattern-2.svg'
 import './Hero.scss'
@@ -11,7 +12,7 @@ const Hero = () => {
         <img src={coolImage} />
       </div>
       <div>
-        <p>This is another placeholder</p>
+        <CallToActionCard/>
       </div>
     </section>
   )
