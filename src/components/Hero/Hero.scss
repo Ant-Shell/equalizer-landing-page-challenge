@@ -1,4 +1,5 @@
 @use '../../styles/variables' as *;
+@use '../../styles/mixins' as *;
 
 .hero {
   display: flex;
@@ -13,6 +14,11 @@
     position: absolute;
     top: 500px;
     // left: 80.67px;
+
+    @include Tablet {
+      top: 650px;
+      left: 100px;
+    }
   }
   .hero-cool-image-container {
     width: 100%;
@@ -21,6 +27,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    @include Tablet {
+      width: 90%;
+    }
 
     .hero-cool-image {
       width: 280px;
