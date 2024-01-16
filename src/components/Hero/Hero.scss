@@ -6,14 +6,13 @@
   flex-direction: column;
   align-items: center;
   height: 950px;
-  margin-top: 10px;
+
   .hero-phone-image {
     width: 208.97px;
     height: 430px;
     z-index: 1;
     position: absolute;
     top: 500px;
-    // left: 80.67px;
 
     @include Tablet {
       top: 650px;
