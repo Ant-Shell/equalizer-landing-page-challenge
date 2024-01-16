@@ -1,31 +1,78 @@
 @use '../../styles/typography' as *;
+@use '../../styles/mixins' as *;
 
 .header {
   background-image: url(../../assets/bg-main-mobile.png);
   background-size: auto;
   background-position: top -9rem right -12rem;
-  height: 60vh;
+  box-sizing: border-box;
+  height: 600px;
   display: flex;
   flex-direction: column;
   padding: 40px 20px 20px 20px;
   font-family: "IBM Plex Sans";
-  .header-logo {
-    width: 146.09px;
-    height: 32px;
-    top: 39.99px;
-    left: 24.15px;
+
+  @include Tablet {
+    background-image: url(../../assets/bg-main-tablet.png);
+    flex-direction: row;
+    height: 45vh;
+    padding: 70px 20px 20px 40px;
   }
-  .header-intro-text {
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 48px;
-    text-align: left;
+
+  .header-left-section {
+    @include Tablet {
+      width: 70vw;
+    }
+
+    .header-logo {
+      width: 146.09px;
+      height: 32px;
+      top: 39.99px;
+      left: 24.15px;
+    }
+    .header-intro-text {
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 48px;
+      text-align: left;
+    }
+    .header-paragraph {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px;
+      letter-spacing: 0px;
+      text-align: left;
+    }
+
+    @include Tablet {
+      .header-intro-text {
+        margin-top: 100px;
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 64px;
+        letter-spacing: -0.73px;
+        margin-bottom: 30px;
+      }
+
+      .header-paragraph {
+        font-size: 18px;
+        line-height: 28px;
+        margin-right: -35px;
+      }
+    }
   }
-  .header-paragraph {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    letter-spacing: 0px;
-    text-align: left;
+  .header-right-section {
+    visibility: hidden;
+    width: 35vw;
+
+    @include Tablet {
+      visibility: visible;
+      .header-cool-image {
+        width: 266.67px;
+        height: 400px;
+        position: absolute;
+        margin-top: -100px;
+      }
+    }
   }
 }

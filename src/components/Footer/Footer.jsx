@@ -11,7 +11,7 @@ const Footer = () => {
       <img className='footer-logo' src={logo} alt='Logo'/>
       <p className='footer-message'>
         All rights reserved © Equalizer 2021<br/>
-        Have any problems? Contact us via social media or<br/>
+        Have any problems? Contact us via social media or
         email us at<br/>
         <b>equalizer@example.com</b>
       </p>

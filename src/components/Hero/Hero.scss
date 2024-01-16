@@ -1,25 +1,30 @@
 @use '../../styles/variables' as *;
 
 .hero {
-  width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 950px;
+  margin-top: 10px;
   .hero-phone-image {
     width: 208.97px;
     height: 430px;
     z-index: 1;
     position: absolute;
-    top: 450px;
+    top: 500px;
     // left: 80.67px;
   }
   .hero-cool-image-container {
-    width: 100vw;
+    width: 100%;
     border-radius: 20px;
     background-color: $black;
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    .hero-cool-image {
+      width: 280px;
+    }
   }
 }
 

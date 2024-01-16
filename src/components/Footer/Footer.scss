@@ -2,15 +2,28 @@
 @use '../../styles/variables' as *;
 
 .footer {
-  height: 300px;
   font-family: "IBM Plex Sans";
-  line-height: 25px;
+  line-height: 26px;
+  box-sizing: border-box;
   padding: 20px 20px 20px 20px;
+  .footer-logo {
+    margin-top: 25px;
+  }
+  .footer-message {
+    font-size: 16px;
+    margin-top: 25px;
+  }
   .footer-logo-container {
     margin-top: 50px;
     width: 100px;
     display: flex;
     align-items: start;
     justify-content: space-around;
+    img:hover {
+      cursor: pointer;
+      filter: invert(44%) sepia(92%)
+      saturate(2037%) hue-rotate(341deg)
+      brightness(102%) contrast(88%);
+    }
   }
 }

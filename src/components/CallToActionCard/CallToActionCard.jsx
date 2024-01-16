@@ -11,8 +11,11 @@ const CallToActionCard = () => {
           Premium EQ
         </h2>
         <p className='cta-info-text'>
-          Get expert-level control with a robust equalizer, volume mixer, and spatial audio. Take
-          your listening experience to a whole new level and access all our incredible features!
+          Get expert-level control with a robust
+          equalizer, volume mixer, and spatial
+          audio. Take your listening experience
+          to a whole new level and access
+          all our incredible features!
         </p>
         <p className='cta-pricing-text'>
           <span className='cta-pricing-bold'>$4</span>
