@@ -11,9 +11,7 @@ const Hero = () => {
       <div className='hero-cool-image-container'>
         <img className='hero-cool-image' src={coolImage2} alt="Cool image" />
       </div>
-      <div>
-        <CallToActionCard/>
-      </div>
+      <CallToActionCard/>
     </section>
   )
 }
