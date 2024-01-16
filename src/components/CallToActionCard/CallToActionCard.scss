@@ -1,5 +1,6 @@
 @use '../../styles/typography' as *;
 @use '../../styles/variables' as *;
+@use '../../styles/mixins' as *;
 
 .cta {
   border-radius: 10px;
@@ -12,6 +13,13 @@
   color: $white;
   font-family: "IBM Plex Sans";
   display: flex;
+
+  @include Tablet {
+    width: 50%;
+    left: 100px;
+    bottom: 350px;
+  }
+
   .cta-content-container {
     display: flex;
     flex-direction: column;
