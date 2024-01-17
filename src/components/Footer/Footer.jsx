@@ -8,13 +8,15 @@ const Footer = () => {
 
   return (
     <footer className='footer'>
-      <img className='footer-logo' src={logo} alt='Logo'/>
-      <p className='footer-message'>
-        All rights reserved © Equalizer 2021<br/>
-        Have any problems? Contact us via social media or
-        email us at<br/>
-        <b>equalizer@example.com</b>
-      </p>
+      <section className='footer-left-section'>
+        <img className='footer-logo' src={logo} alt='Logo'/>
+        <p className='footer-message'>
+          All rights reserved © Equalizer 2021<br/>
+          Have any problems? Contact us via social media or
+          email us at<br/>
+          <b>equalizer@example.com</b>
+        </p>
+      </section>
       <div className='footer-logo-container'>
         <img className='footer-facebook-logo' src={facebookLogo} alt='Facebook logo'/>
         <img className='footer-instagram-logo' src={instagramLogo} alt='Instagram logo'/>

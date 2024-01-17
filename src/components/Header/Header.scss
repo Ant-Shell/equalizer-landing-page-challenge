@@ -7,6 +7,7 @@
   background-position: top -9rem right -12rem;
   box-sizing: border-box;
   height: 600px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   padding: 40px 20px 20px 20px;
@@ -15,7 +16,7 @@
   @include Tablet {
     background-image: url(../../assets/bg-main-tablet.png);
     flex-direction: row;
-    height: 45vh;
+    height: 800px; // <-- fix me!
     padding: 70px 20px 20px 40px;
   }
 
@@ -70,7 +71,7 @@
       .header-cool-image {
         width: 266.67px;
         height: 400px;
-        position: absolute;
+        margin-left: 60px;
         margin-top: -100px;
       }
     }

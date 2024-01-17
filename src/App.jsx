@@ -1,8 +1,8 @@
 import Header from './components/Header/Header'
 import Hero from './components/Hero/Hero'
 import Footer from './components/Footer/Footer'
+import CallToActionCard from './components/CallToActionCard/CallToActionCard'
 import './styles/_global.scss'
-import './App.scss'
 
 function App() {
   
@@ -10,6 +10,7 @@ function App() {
     <>
       <Header/>
       <Hero/>
+      <CallToActionCard/>
       <Footer/>
     </>
   )

@@ -1,11 +1,18 @@
 @use '../../styles/typography' as *;
 @use '../../styles/variables' as *;
+@use '../../styles/mixins' as *;
 
 .footer {
   font-family: "IBM Plex Sans";
   line-height: 26px;
   box-sizing: border-box;
   padding: 20px 20px 20px 20px;
+
+  @include Tablet {
+    margin-top: -30rem;
+    display: flex;
+    justify-content: space-between;
+  }
   .footer-logo {
     margin-top: 25px;
   }
@@ -19,6 +26,10 @@
     display: flex;
     align-items: start;
     justify-content: space-around;
+
+    @include Tablet {
+      margin-top: 70px;
+    }
     img:hover {
       cursor: pointer;
       filter: invert(44%) sepia(92%)

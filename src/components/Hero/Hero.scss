@@ -1,29 +1,51 @@
 @use '../../styles/variables' as *;
+@use '../../styles/mixins' as *;
 
 .hero {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 950px;
-  margin-top: 10px;
+  height: 420px;
+  position: relative;
+
+  @include Tablet {
+    height: 650px;
+    // margin-top: 10rem;
+  }
+
   .hero-phone-image {
     width: 208.97px;
     height: 430px;
     z-index: 1;
     position: absolute;
-    top: 500px;
-    // left: 80.67px;
+    bottom: 85px;
+
+    @include Tablet {
+      width: 270.21px;
+      height: 556px;
+      bottom: 230px;
+      left: 80px;
+    }
   }
   .hero-cool-image-container {
     width: 100%;
-    border-radius: 20px;
+    border-radius: 10px;
     background-color: $black;
     display: flex;
     flex-direction: column;
     align-items: center;
 
+    @include Tablet {
+      width: 696px;
+      height: 700px;
+    }
+
     .hero-cool-image {
       width: 280px;
+
+      @include Tablet {
+        margin-top: -30px;
+      }
     }
   }
 }
