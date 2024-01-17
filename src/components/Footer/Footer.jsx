@@ -5,7 +5,6 @@ import instagramLogo from '../../assets/icon-instagram.svg'
 import twitterLogo from '../../assets/icon-twitter.svg'
 
 const Footer = () => {
-
   return (
     <footer className='footer'>
       <section className='footer-left-section'>

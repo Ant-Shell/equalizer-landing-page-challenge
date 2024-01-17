@@ -3,7 +3,6 @@ import logo from '../../assets/logo.svg'
 import coolImage1 from '../../assets/bg-pattern-1.svg'
 
 const Header = () => {
-
   return (
     <header className='header'>
       <section className='header-left-section'>
