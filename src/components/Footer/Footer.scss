@@ -9,16 +9,39 @@
   padding: 20px 20px 20px 20px;
 
   @include Tablet {
-    margin-top: -30rem;
+    margin-top: -480px;
     display: flex;
     justify-content: space-between;
   }
-  .footer-logo {
-    margin-top: 25px;
+
+  @include Desktop { 
+    margin-top: -660px;
+    display: flex;
+    justify-content: space-around;
+
   }
-  .footer-message {
-    font-size: 16px;
-    margin-top: 25px;
+    .footer-left-section {
+    .footer-logo {
+      margin-top: 25px;
+
+      @include Desktop {
+        width: 146px;
+        height: 32px;
+      }
+    }
+    .footer-message {
+      font-size: 16px;
+      margin-top: 25px;
+
+      @include Desktop {
+
+      }
+    }
+    @include Desktop {
+      display: flex;
+      justify-content: space-between;
+      width: 60%;
+    }
   }
   .footer-logo-container {
     margin-top: 50px;
@@ -29,6 +52,10 @@
 
     @include Tablet {
       margin-top: 70px;
+    }
+
+    @include Desktop {
+      margin-top: 50px;
     }
     img:hover {
       cursor: pointer;

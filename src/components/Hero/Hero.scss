@@ -10,7 +10,10 @@
 
   @include Tablet {
     height: 650px;
-    // margin-top: 10rem;
+  }
+
+  @include Desktop {
+    bottom: 100px;
   }
 
   .hero-phone-image {
@@ -26,6 +29,13 @@
       bottom: 230px;
       left: 80px;
     }
+
+    @include Desktop {
+      width: 312px;
+      height: 642px;
+      bottom: 230px;
+      left: 250px;
+    }
   }
   .hero-cool-image-container {
     width: 100%;
@@ -40,11 +50,24 @@
       height: 700px;
     }
 
+    @include Desktop {
+      width: 1200px;
+      height: 600px;
+      border-radius: 20px;
+    }
+
     .hero-cool-image {
       width: 280px;
 
       @include Tablet {
         margin-top: -30px;
+      }
+
+      @include Desktop {
+        width: 312px;
+        height: 468px;
+        margin-top: -50px;
+        margin-left: -160px;
       }
     }
   }

@@ -3,7 +3,6 @@ import appleIcon from '../../assets/icon-apple.svg'
 import './CallToActionCard.scss'
 
 const CallToActionCard = () => {
-
   return (
     <section className='cta'>
       <div className='cta-content-container'>

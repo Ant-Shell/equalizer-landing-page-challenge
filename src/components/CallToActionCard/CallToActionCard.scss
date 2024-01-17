@@ -22,12 +22,21 @@
     padding: 30px 40px 40px 40px;
   }
 
+  @include Desktop {
+    width: 446px;
+    height: 625px;
+    left: 725px;
+    bottom: 675px;
+    padding: 20px;
+  }
+
   .cta-content-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     box-sizing: border-box;
     justify-content: center;
+
     .cta-header-text {
       font-size: 32px;
       font-weight: 700;
@@ -43,6 +52,12 @@
         margin-left: 0;
         margin-left: 20px;
       }
+
+      @include Desktop {
+        font-size: 40px;
+        line-height: 52px;
+        margin-left: 50px;
+      }
     }
     .cta-info-text {
       font-size: 18px;
@@ -57,6 +72,12 @@
         padding: 0;
         margin-left: 20px;
       }
+
+      @include Desktop {
+        font-size: 20px;
+        line-height: 30px;
+        padding: 0 30px 0 30px;
+      }
     }
     .cta-pricing-text {
       font-size: 20px;
@@ -68,6 +89,10 @@
 
       @include Tablet {
         margin-left: 20px;
+      }
+
+      @include Desktop {
+        margin-left: 50px;
       }
       .cta-pricing-bold {
         font-size: 65px;
@@ -92,9 +117,20 @@
       display: flex;
       align-items: center;
       justify-content: center;
+
+      @include Desktop {
+        width: 333px;
+        height: 61px;
+        font-size: 18px;
+      }
       .cta-apple-icon {
         margin-right: 5px;
         margin-bottom: 5px;
+
+        @include Desktop {
+          width: 17.8px;
+          height: 20px;
+        }
       }
     }
     .cta-android-button {
@@ -110,9 +146,20 @@
       display: flex;
       align-items: center;
       justify-content: center;
+
+      @include Desktop {
+        width: 333px;
+        height: 61px;
+        font-size: 18px;
+      }
       .cta-android-icon {
         margin-right: 5px;
         margin-bottom: 5px;
+
+        @include Desktop {
+          width: 17.8px;
+          height: 20px;
+        }
       }
     }
     .cta-ios-button:hover {
