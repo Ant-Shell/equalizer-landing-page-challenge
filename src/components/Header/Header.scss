@@ -16,7 +16,7 @@
   @include Tablet {
     background-image: url(../../assets/bg-main-tablet.png);
     flex-direction: row;
-    height: 45vh;
+    height: 800px; // <-- fix me!
     padding: 70px 20px 20px 40px;
   }
 

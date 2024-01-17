@@ -1,4 +1,4 @@
-import CallToActionCard from '../CallToActionCard/CallToActionCard'
+// import CallToActionCard from '../CallToActionCard/CallToActionCard'
 import phoneImage from '../../assets/illustration-app.png'
 import coolImage2 from '../../assets/bg-pattern-2.svg'
 import './Hero.scss'
@@ -11,7 +11,7 @@ const Hero = () => {
       <div className='hero-cool-image-container'>
         <img className='hero-cool-image' src={coolImage2} alt="Cool image" />
       </div>
-      <CallToActionCard/>
+      {/* <CallToActionCard/> */}
     </section>
   )
 }
